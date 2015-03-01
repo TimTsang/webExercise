@@ -1,0 +1,123 @@
+/**登录框整体布局**/
+.login-panel{
+	background: -moz-linear-gradient(center top , #FFFFFF 0px, #DAE6DC 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 5px solid #DAE6DC;
+	border-radius: 5px;
+	padding :25px 35px 20px;
+	position:absolute;
+	right: 160px;
+	top :130px;
+	
+}
+.login-panel h3{
+	font-size: 21px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	text-shadow:1px 1px 1px #EEEEEE;
+	text-align: center;
+}
+.login-panel .login-mod{
+	width: 316px;
+}
+/**表单布局**/
+.login-panel .login-mod .login-form{
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-radius:5px;
+	box-shadow: 0 1px 3px rgba(170, 170, 170, 0.8) inset;
+	margin-top: 5px;
+	width: 316px;
+	border: 1px solid #AEAEAE;
+    padding: 3px 0;
+}
+.login-panel .login-mod .login-form.login-user{
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.icon24-login {
+    background: url("../images/icon24_login.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 24px;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 24px;
+  
+}
+
+.login-panel .login-mod .login-form.login-user .icon-wrapper{
+	display: inline-block;
+    line-height: 0;
+    vertical-align: middle;
+
+}
+#icon24-login-user{
+	background-position: 0 0;
+}
+.login-panel .login-mod .login-form input{
+	border: none;
+	font-size: 14px;
+	margin: 0;
+	padding-left: 10px;
+	background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+    box-shadow: none;
+    font-family: "Microsoft YaHei";
+    height: 40px;
+    vertical-align: middle;
+    width: 240px;
+}
+.login-panel .login-mod .login-form .login-pwd{
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+#icon24-login-pwd{
+	background-position: -48px 0;
+}
+.login-help-panel{
+	color: #009FB3;
+	margin-top: 10px;
+}
+.login-help-panel .login-remember-pwd{
+	color: #009FB3;
+	text-decoration: none;
+	float: left;
+}
+.login-help-panel .login-forget-pwd{
+	color: #009FB3;
+	float: right;
+	text-decoration: none;
+	margin: 0 5px;
+}
+.login-help-panel .login-forget-pwd:hover{
+	color: #20B3F6;
+}
+.login-btn-panel{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.login-btn-panel .login-btn{
+	background: -moz-linear-gradient(center top , #6E6E96 0px, #A6CFCB 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border :1px solid #638467;
+	border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+}
+.login-btn-panel .login-btn:hover{
+	background: -moz-linear-gradient(center top , #6E6E96 0px, #20B3F6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.login-mod #err_area{
+	display: none;
+	font-size: 14px;
+	color: red;
+}
+.login-mod #err_area #icon24-login-err{
+	background-position:-25px 0;
+}

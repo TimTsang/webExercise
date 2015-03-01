@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="css/basic.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/publicUserReg.css"> -->
+        <!--javascript-->
+        <script type="text/javascript" src="script/jquery-1.4.3.min.js"></script>
+        <script type="text/javascript" src="script/index.js"></script>
+        <script type="text/javascript" src="script/reg-fpwd-check.js"></script>
+        <title>大学城微信商家平台注册-商家用户注册</title>
+    </head>
+    <body>
+     <div id="body-background">
+        <div class="nav">
+        	<a id="backtotop" href="#reg-contain"> </a>
+        	<div class="nav-content">
+        		<a class="link" href="#">
+        			<img src="images/logo1ac437.png">
+        		</a>
+        		<div class="right-line">
+        			<ul>
+        				<li>
+        					<a href="index.html" >首页</a>
+        				</li>
+        				<li>
+        					<a href="#">热门</a>
+        				</li>
+        				<li>
+        					<a href="#">产品介绍</a>
+        				</li>
+        				<li>
+        					<a href="#">帮助</a>
+        				</li>
+        				<li>
+        					<a href="#">关于我们</a>
+        				</li>
+        			</ul>
+        			<div class="account">
+        				已有账号？
+        				<a class="btn-reg" href="index.html">马上登录</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <div id="contain">
+            <div class="main-body">
+                <h1 class="main-body-h1">注册</h1>
+                <div class="main-body-box">
+                    <div class="register-box">
+                        <form id="regform" class="regform" name="regform">
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="us">用户名</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="username" name="username" onblur="check_username()">
+                                    <span class="tips" id="user-span">* 长度为6~16位字符，可以为“数字/字母/中划线/下划线”组成</span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="pa">设置密码</label>
+                                <div class="register-box-group-text">
+                                    <input type="password" id="password1" name="password1" onblur="check_password()">
+                                    <span class="tips" id="pass-span1">* 长度为6~16位字符</span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="repa">确认密码</label>
+                                <div class="register-box-group-text">
+                                    <input type="password" id="password2" name="password2" onblur="check_repassword()">
+                                    <span class="tips" id="pass-span2"></span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="tn">真实姓名</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="tname" name="tname" onblur="">
+                                    <span class="tips" id="tname-span">* </span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="da">详细地址</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="daddress" name="daddress" onblur="">
+                                    <span class="tips" id="daddress-span">* </span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="yj">职业</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="yjob" name="yjob" onblur="">
+                                    <span class="tips" id="yjob-span">* </span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="ts">商店类型</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="tshops" name="tshops" onblur="">
+                                    <span class="tips" id="tshops-span">* </span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label">微信号</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" onblur="">
+                                    <span class="tips">*</span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="vercode">审核码</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="vcode" name="vcode" onblur="check_vercode()" >
+                                    <span class="tips" id="vcode_span">* 忘记密码找回的凭证</span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="em">邮箱</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="email" name="email" onblur="check_email()">
+                                    <span class="tips" id="email-span">* 邮箱将与支付及优惠相关，请填写正确的邮箱</span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label" id="mp">手机</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" id="mphone" name="mphone" onblur="check_mphone()">
+                                    <span class="tips" id="mphone-span">* 请输入正确的手机号码</span>
+                                </div>
+                            </div>
+                            <div class="register-box-group">
+                                <label class="register-box-label">短信验证码</label>
+                                <div class="register-box-group-text">
+                                    <input type="text" onblur="">
+                                    <span class="tips">*</span>
+                                    <input type="button" id="btn" value="免费获取短信验证码" />
+                                    <script type="text/javascript">
+                                        var wait=60;
+                                        function time(button) {
+                                                if (wait == 0) {
+                                                    button.removeAttribute("disabled");          
+                                                    button.value="免费获取短信验证码";
+                                                    wait = 60;
+                                                } else {
+                                                    button.setAttribute("disabled", true);
+                                                    button.value= wait + "秒后重新发送";
+                                                    wait--;
+                                                    setTimeout(function() {
+                                                        time(button);
+                                                    },
+                                                    1000)
+                                                }
+                                            }
+                                        document.getElementById("btn").onclick=function(){
+                                            time(this);
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="register-box-group-text">
+                                <div class="register-button">
+                                    <button type="button" id="regbutton" onclick="check()"></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        	
+        </div>
+
+        <div id="footer">
+           
+        </div>
+       </div>
+    </body>
+</html>

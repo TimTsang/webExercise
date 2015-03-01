@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 4.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="css/basic.css">
+       <!--  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+       <link rel="stylesheet" type="text/css" href="css/merchantUser.css"> -->
+        <!--JavaScript-->
+        <script type="text/javascript" src="script/jquery-1.4.3.min.js"></script>
+        <script type="text/javascript" src="script/jquery.ez-bg-resize.js"></script>
+        <script type="text/javascript" src="script/index.js"></script>
+        <script type="text/javascript" src="script/google-maps.js"></script>
+        <script type="text/javascript" src="script/reg-fpwd-check.js"></script>
+        <script>
+        $(document).ready(function(){
+            $(".vertical-nav").verticalnav({
+                speed: 400,
+                align: "left"
+                });
+        });
+        </script>
+        <title>大学城微信商家平台-商家用户</title>
+    </head>
+    <body>
+     <div id="body-background">
+        <div class="nav">
+            <a id="backtotop" href="#banner"> </a>
+            <div class="nav-content">
+                <a class="link" href="#">
+                    <img src="images/logo1ac437.png">
+                </a>
+            </div>
+        </div>
+        <div id="contain">
+            <div class="content" id="content">
+               <ul class="vertical-nav dark red">
+                    <li class="active"><a href="merchantUser.html"><i class="icon-home"></i>首页</a></li>
+                    <li><a href="#"><i class="icon-cogs"></i>设置
+                    <span class="submenu-icon"></span></a>
+                    <ul>
+                        <li><a href="/upgraded/" onclick="openPage('upgraded')">上传设置</a></li>
+                        <li><a href="/change_information/" onclick="openPage('change_information')">管理员管理</a></li>
+                        <li><a href="/change_password/" onclick="openPage('change_password')"></a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#"><i class="icon-briefcase"></i>旅店简介
+                    <span class="submenu-icon"></span></a>
+                    <ul>
+                        <li><a href="#">旅店简介<span class="submenu-icon"></span></a><ul>
+                            <li><a href="#">环境展示</a></li>
+                            <li><a href="#">Third level</a></li>
+                            <li><a href="#">Third level <span class="submenu-icon"></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">Fourth level</a></li>
+                                <li><a href="#">Fourth level</a></li>
+                                <li><a href="#">Fourth level</a></li>
+                                <li><a href="#">Fourth level</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">Third level</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Second level</a></li>
+                        <li><a href="#">Second level</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#"><i class="icon-user"></i>关于我们</a></li>
+                    <li><a href="#"><i class="icon-comments-alt"></i>联系我们</a></li>
+                    <li><a href="#"><i class="icon-picture"></i>图片</a></li>
+                    <li><a href="#"><i class="icon-info"></i>旅店信息</a></li>
+                    <!-- <li><a href="#"><i class="icon-group"></i>Team</a></li> -->
+                    <li><a href="#"><i class="icon-question"></i>空房情况</a></li>
+                    <li><a href="#"><i class="icon-bar-chart"></i>排行统计</a></li>
+                    <li><a href="#"><i class="icon-envelope"></i>消息</a></li>
+                </ul>
+                <script type="text/javascript">
+                    var nowOpen = 'first_page';
+                    function openPage(page) {
+                        document.getElementById(nowOpen).style.display='none';//原来的页面消失
+                        document.getElementById(page).style.display='';//现在的页面打开
+                        nowOpen = page;//记录现在的页面
+                    }
+                </script>
+                <div style="display:;" id="first_page">
+                    <div class="main-body-box" style="margin:60px 100px 20px 300px;padding:0px 0px 0px 0px;height:580px;">
+                        <img src="images/hotel.jpg" style="height:580px;border-radius:10px;">
+                        </div></div>
+                <div style="display:none;" id="upgraded">
+                    <div class="main-body-box" style="margin:60px 100px 20px 300px;padding:0px 0px 0px 0px;height:580px;">
+                     酒店的客房舒适奢华，散发Art Deco装饰艺术的精致典雅。166间宽阔客房均采用落地景观大窗，宁静悠然的公园美景和碧波湖景尽收眼底。
+
+  酒店采用世界顶级品牌Frette芙蕾特与Pacific Coast派赛菲特床上用品、Sealy丝涟床垫以及L'Occitane欧舒丹沐浴用品，确保客人获得尊贵舒适的入住体验。
+
+
+  豪华湖景房
+
+  集豪华、典雅与现代风格于一体，将传统工艺的漆木家具与现代化设施兼收并蓄。客房45平方米布置精致，落地景观窗外公园的自然美景，结合现代舒适的客房设施，带给您温馨惬意的居停体验。
+
+  至尊湖景房
+
+  拥有65平方米豪华完善的客房设施，更为您提供宽敞的休憩空间。私密的就寝区与休息区巧妙衔接，融合窗外自然景致，使客房更富延展性与舒适感，处处彰显时尚高端品味。
+
+  行政全湖景套房
+
+  若更在意隐私，又偏爱独立宽敞的休息和娱乐空间, 90平方米的宽阔空间、优雅的布局、一应俱全的客房设施、窗外公园如画风景… 至尊湖景房将是您独享“雕琢奢华”的完美体现。
+
+  总统套房
+
+  位于酒店25楼的总统套房，雍雅大气，360平方米居高临下的奢华空间，宽敞与私密性俱佳，公园美景尽收眼底。配备大型起居室及独立的豪华套房，将华丽的装饰与现代化的科技完美结合，创造了一个完美和谐的入住环境；客房配备有最先进沐浴功能的豪华超大浴缸，临窗的设计让您在享受沐浴乐趣的同时亦能纵览180°的公园美景。酒店私人管家，更提供专属贴身服务，让您尽享极致奢华。
+
+
+
+  客房设施
+
+·  46英寸夏普液晶多频道电视
+
+·  iPod和MP3扩展系统与DVD播放机
+
+·  Wi-Fi和高速有线网络连接
+
+·  多功能控制面板
+
+·  Nespresso咖啡机
+
+·  迷你酒吧
+
+·  个人保险箱
+
+·  芙蕾特及派赛菲克睡眠体验
+
+·  可全天候自行调节房内暖气和冷气的温控系统
+
+·  欧舒丹浴室用品(行政楼层及套房)
+
+·  独立的淋浴间、浴缸及配备内嵌式19英寸电视机的浴室 
+                </div>
+            </div>
+            <div style="display:none;" id="change_information">
+                    <div class="main-body-box" style="margin:60px 100px 20px 300px;padding:0px 0px 0px 0px;height:580px;">
+                    </div>
+            </div>
+            <div style="display:none;" id="change_password">
+                    <div class="main-body-box" style="margin:60px 100px 20px 300px;padding:0px 0px 0px 0px;height:580px;">
+                    </div>
+            </div>
+        </div>
+                
+            <div id="footer" style="clear:both;"></div>
+        </div>
+       </div>
+
+    </body>
+</html>

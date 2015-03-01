@@ -1,0 +1,161 @@
+/**导航栏开始**/
+body{
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#303030", EndColorStr="#6B707C");
+}
+#body-background{
+	background: url("../images/reg-background.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);/**连接背景图片**/
+}
+.nav{
+	background:repeat-x scroll 0 0 #009FB3;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	height: 49px;
+	top: 0;
+	left: 0;
+	margin-bottom: 0;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=10);
+}
+.nav .nav-content{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+}
+.nav .nav-content .right-line{
+	float: right;
+	width: 600px;
+}
+.nav .nav-content .right-line ul{
+	list-style: none outside none;
+	margin-top: 8px;
+	margin-left: -60px;
+	padding-left: 0px;
+}
+.nav .nav-content .right-line ul li{
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.nav .nav-content .right-line ul li a{
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 3px;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow:none;
+}
+.nav .nav-content .right-line ul li a:hover{
+	background-color: #1B5D7F;
+	border-radius:3px;
+	padding: 5px 10px;
+}
+.nav .nav-content .right-line .account{
+	font-size: 14px;
+	color: #E0E1E2;
+	margin-left: -60px;
+	float: right;
+	margin-top: -5px;
+}
+.nav .nav-content .right-line .account .btn-reg{
+	background: none repeat scroll 0 0 #20B3F6;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius:3px;
+}
+.nav .nav-content .right-line .account .btn-reg:hover{
+	background: none repeat scroll 0 0 #1B5D7F;
+}
+/**导航栏结束**/
+
+/**返回顶部按钮**/
+#backtotop{
+	background-image: url("../images/backtotop.png");
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=10);
+	background-position: 0 0;
+	position: fixed;
+	bottom: 0;
+	display: block;
+	height: 50px;
+	width: 51px;
+	overflow: hidden;
+	right: 0;
+	z-index: 1000;
+}
+#backtotop:hover{
+	background-image: url("../images/backtotop_1.png");
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=10);
+}
+/**返回顶部按钮结束**/
+
+/**头部开始**/
+#banner{
+	width: 100%;
+	margin-top: 40px;
+}
+/**主体部分**/
+.wrapper{
+	margin: 0 auto;
+	width: 960px;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=10);
+}
+.simple_box{
+	background-color: #F3F3F3;
+	border:1px solid #D0D1D3;
+	border-radius: 5px;
+	color: #222222;
+	line-height: 40px;
+	overflow: hidden;
+	padding-left: 20px;
+	margin: 30px 0 15px 0;
+	width: 100%;
+}
+#content{
+	background: url("../images/bg1c6bdf.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-bottom: -15px;
+	border-radius: 10px;
+}
+#content .wrapper .simple_box{
+	float: left;
+}
+#content .wrapper .simple_box dd{
+	float: left;
+	margin-left: 45px;
+}
+#content .wrapper .md-content{
+	border-bottom: 1px solid #D6D6D6;
+	padding-bottom: 40px;
+}
+#content .wrapper .md-content .md-content-hd{
+	padding-bottom: 35px;
+	padding-top: 24px;
+}
+#content .wrapper .md-content .md-content-hd h5{
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+}
+#content .wrapper .md-content .md-content-bd{
+	padding-bottom: 35px;
+	padding-top: 24px;
+}
+.md-content-intr{
+	float: left;
+	width: 50%;
+}
+/**底部部分**/
+#footer{
+	background: none repeat scroll 0 0 #009FB3;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	margin-bottom: 0px;
+	clear:both;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=10);
+}

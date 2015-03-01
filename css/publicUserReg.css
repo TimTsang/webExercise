@@ -1,0 +1,106 @@
+/**主体样式**/
+.main-body{
+	margin: 20px auto;
+	padding :30px 0;
+	width: 980px;
+}
+.main-body-h1{
+	color: #FFFFFF;
+	display: block;
+	font-size: 26px;
+	padding: 5px 0;
+	text-indent: 2em;
+	text-shadow:1px 0 3px #666666;
+}
+.main-body-box{
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) !important;
+	border-radius:10px;
+	box-shadow: 0 1px 2px #666666;
+	padding :5px;
+}
+
+/**表单样式**/
+.register-box{
+	height: 880px;
+}
+.regform{
+	margin-top: 30px;
+	float: left;
+}
+.register-box-group{
+	padding-top: 10px;
+	margin-top: 5px;
+}
+.register-box-label{
+	color: #595959;
+	float: left;
+	padding-top:10px;
+	text-align: right;
+	width: 160px;
+}
+.register-box-group-text{
+	line-height: 30px;
+	margin-left: 180px;
+}
+.register-box-group-text input{
+	height: 35px;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 4px 6px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	border:1px solid #595959;
+	border-radius:5px;
+	width: 200px;
+}
+.register-box-group-text .tips{
+	color: #595959;
+	padding-left: 5px;
+	font-size: 14px;
+}
+.register-box-group-text #btn{
+	color: #595959;
+	cursor:pointer;
+}
+.register-box-group-text #btn:hover{
+	background-color: #5ED3FB;
+}
+.register-box-group-text #regbutton{
+	background: url("../images/weimob_1.png") no-repeat scroll 0 -122px rgba(0, 0, 0, 0);
+	height: 61px;
+	margin-left: 200px;
+	margin-top: 50px;
+	cursor:pointer;
+	display: inline-block;
+	width: 220px;
+	outline: medium none;
+	border: 0 none;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=10);
+}
+.register-box-group-text #regbutton:hover{
+	background: url("../images/weimob_2.png") no-repeat scroll 0 -122px rgba(0, 0, 0, 0);
+}
+
+
+
+/**找回密码里面特有样式**/
+.register-box-group-text .register-button .fpwdbutton{
+	background: url("../images/weimob_1.png") no-repeat scroll -88px -193px rgba(0, 0, 0, 0);
+	border:medium none;
+	cursor:pointer;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius:3px;
+	padding: 1px 1px 1px 1px ;
+	margin: 30px 100px 0 0 ;
+	width: 100px;
+}
+
+.register-box-group-text .register-button .fpwdbutton:hover{
+	background: url("../images/weimob_2.png") no-repeat scroll -88px -193px rgba(0, 0, 0, 0);
+}
